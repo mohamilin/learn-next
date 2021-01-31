@@ -32,3 +32,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### DOCUMENTATION ABOUT THIS PROJECT with Typescript
+- change _app.js and index.js to _app.tsx and index.tsx
+- change hello.js on api's folder to hello.ts
+- add tsconfig.json 
+- install dependencies typescript : 
+    - yarn add typescript @types/node @types/react --save-dev
+- run project : npm run dev
+- after run, akan muncul file next.env.ts dan tsconfig.json akan terisi dengan konfigurasi typescript
+- create a file learnpage.tsx :
+        export default function Home() {
+        return (
+            <h1>Halaman learn page</h1>
+        )
+        }
+    - next, klik on browser /learnpage
+
+
+<!-- Sampai menit ke 26 -->
