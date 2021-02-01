@@ -42,11 +42,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - run project : npm run dev
 - after run, akan muncul file next.env.ts dan tsconfig.json akan terisi dengan konfigurasi typescript
 - create a file learnpage.tsx :
+    ```html
         export default function Home() {
         return (
             <h1>Halaman learn page</h1>
-        )
+            )
         }
+    ```
     - next, klik on browser /learnpage
 
 
