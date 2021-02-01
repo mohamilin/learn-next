@@ -51,5 +51,31 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     ```
     - next, klik on browser /learnpage
 
+ ```html
+        export default function Home() {
+        return (
+            <h1>Halaman learn page</h1>
+            )
+        }
+    ```
+    - next, klik on browser /learnpage
+
+ ```html
+        export default function Home() {
+        return (
+            <h1>Halaman learn page</h1>
+            )
+        }
+    ```
+    - next, klik on browser /learnpage
+
+ ```html
+        export default function Home() {
+        return (
+            <h1>Halaman learn page</h1>
+            )
+        }
+    ```
+    - next, klik on browser /learnpage
 
 <!-- Sampai menit ke 26 -->
